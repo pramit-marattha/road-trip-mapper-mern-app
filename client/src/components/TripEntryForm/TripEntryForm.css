@@ -1,20 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,200;0,400;1,200;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 .trip-form label {
   margin: 0.5rem 0;
   display: block;
   width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: 'Fredoka One', cursive;
 }
 .trip-form input {
-  margin: 0.5rem 0;
-  display: block;
+ margin: 0.5rem 0;
+  background-color: #2c2e41;
+  border-radius: 5px;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  height: 100%;
+  outline: 0;
+  padding: 10px 5px 10px 5px;
   width: 100%;
+  font-family: 'Fredoka One', cursive;
+
 }
 
 .trip-form textarea {
   margin: 0.5rem 0;
-  display: block;
+  background-color: #2c2e41;
+  border-radius: 5px;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  height: 100%;
+  outline: 0;
+  padding: 10px 5px 10px 5px;
   width: 100%;
+  font-family: 'Fredoka One', cursive;
+
 }
 
 .error-message {
@@ -22,19 +44,18 @@
 }
 
 .trip-form button {
-  display: block;
-  width: 100%;
-  line-height: 15px;
-  font-size: 10px;
-  font-family: "Turret Road", bold;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  border: 3px solid #333;
-  border-radius: 10px;
-  letter-spacing: 3px;
+  background-color: #fb5666;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
   text-align: center;
-  position: relative;
-  transition: all 0.35s;
+  width: 100%;
 }
 
 button span {
@@ -49,8 +70,6 @@ button:after {
   left: 0;
   width: 0;
   height: 100%;
-  background: #00b3ff;
-  border-radius: 10px;
   transition: all 2.35s;
 }
 
@@ -63,5 +82,5 @@ button:hover:after {
 }
 
 .small_description {
-  font-size: 6px;
+  font-size: 60px;
 }

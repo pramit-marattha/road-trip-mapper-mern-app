@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState , useEffect} from 'react';
 import ReactMapGL, {Marker,Popup } from 'react-map-gl';
 import {listLogEntries} from "./api/API";
-import MapPinLogo from "./assets/MapPinLogo.svg";
+import MapPinLogo from "./assets/mapperPin.svg";
 import MarkerPopup from "./assets/MarkerPopup.svg";
 import TripEntryForm from "./components/TripEntryForm";
 import ReactStars from "react-rating-stars-component";
@@ -85,13 +85,15 @@ const App = () => {
                 size={29}
                 activeColor="#ffd700"
               />
+                <div className="popup_image">
+            {entry.image && <img src={entry.image} alt={entry.title}/>}
+            </div>
             <h3>{entry.title}</h3>
             <p>{entry.comments}</p>
             <small>Visited : {new Date(entry.visitDate).toLocaleDateString('en-US',{ weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</small>
             <p>Ratings: {entry.rating}</p>
             <div className="small_description">{entry.description}</div>
-
-            {entry.image && <img src={entry.image} alt={entry.title}/>}
+            
           </div>
         </Popup>
           ) : null
