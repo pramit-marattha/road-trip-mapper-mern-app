@@ -22,11 +22,11 @@ code {
 }
 
 .popup {
-  width: 20vw;
+  width: 10vw;
   height: auto;
   padding: 1rem;
-  background-color: #1db97b;
-  border-radius: 30px;
+  background-color: #8661d1;
+  border-radius: 5px;
   z-index: 999;
 }
 
@@ -35,5 +35,4 @@ code {
   text-align: center;
   margin: 0 auto;
   padding-top: 1rem;
-  border-radius: 5%;
 }

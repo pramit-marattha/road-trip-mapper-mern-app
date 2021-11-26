@@ -7,7 +7,7 @@ const RoadTripNav = () => {
     return (
         <ReactNavbar.ReactNavbar
         color="rgb(25, 25, 25)"
-        logo= "https://svgshare.com/i/SLH.svg"
+        logo= "./logo.svg"
         menu={[
         ]}
         social={[

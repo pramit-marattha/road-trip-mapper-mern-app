@@ -1,4 +1,4 @@
-const API_URL = "https://road-trip-map-mern.herokuapp.com";
+const API_URL = "http://localhost:4000";
 // const API_URL = window.location.hostname === "localhost" ? "http://localhost:4000" : "https://road-trip-map-mern.herokuapp.com" ;
 
 
