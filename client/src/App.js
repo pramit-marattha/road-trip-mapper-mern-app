@@ -71,7 +71,6 @@ const App = () => {
                   alt="Map Pin Logo"
                 />
               </div>
-              {/* <div style={{color:"white"}}>{entry.title}</div> */}
             </Marker>
             {showPopup[entry._id] ? (
               <Popup
@@ -80,11 +79,7 @@ const App = () => {
                 closeButton={true}
                 closeOnClick={false}
                 dynamicPosition={true}
-                onClose={() =>
-                  setShowPopup({
-                    // ...showPopup,[entry._id] : false,
-                  })
-                }
+                onClose={() => setShowPopup({})}
                 anchor="top"
               >
                 <div className="popup">

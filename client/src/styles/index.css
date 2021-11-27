@@ -50,3 +50,14 @@ code {
   border-radius: 5px;
   z-index: 999;
 }
+
+button {
+  border: none;
+  color: #fa5252;
+  padding-right: 1rem;
+  border-radius: 50%;
+  font-size: 4rem;
+  margin-top: 0.2rem;
+  height: auto;
+  cursor: pointer;
+}
