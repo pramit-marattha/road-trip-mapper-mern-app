@@ -15,7 +15,7 @@ const DATABASE_CONNECTION = process.env.DATABASE_URL;
 
 mongoose.connect(DATABASE_CONNECTION, {
   useNewUrlParser: true,
-  newUnifiedTopology: true,
+  useUnifiedTopology: true,
 });
 
 app.use(morgan("common"));
