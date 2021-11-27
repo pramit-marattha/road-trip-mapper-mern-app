@@ -1,6 +1,6 @@
 const { Router } = require("express");
 
-const LogEntry = require("../models/LogEntry");
+const LogEntry = require("../models/LogEntry.model.js");
 
 const { API_KEY } = process.env;
 
